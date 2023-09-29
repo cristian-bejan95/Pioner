@@ -1,0 +1,18 @@
+.about__text {
+  column-gap: var(--gap);
+  margin-bottom: var(--lg);
+  row-gap: 24px;
+}
+
+.about__descr {
+  grid-column: 6 span;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: var(--dark);
+}
+
+.about__image {
+  grid-column: 6 span;
+}

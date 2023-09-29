@@ -1,0 +1,21 @@
+.nav__list {
+  display: flex;
+}
+
+.nav__item {
+  &:not(:last-child) {
+    margin-right: var(--menugap);
+  }
+}
+
+.nav__link {
+  color: var(--dark, #333);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: var(--accent);
+  }
+}
