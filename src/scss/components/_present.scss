@@ -1,0 +1,38 @@
+.present__map {
+  width: calc(100% - 29px)
+}
+
+.present__map svg {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.present__map path {
+  fill: var(--third);
+  transition: fill 0.3s;
+}
+
+.present__link {
+  position: relative;
+}
+
+.present__link::before {
+    content: "sdfsdf";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: var(--dark);
+}
+
+.present__text {
+  fill: var(--dark)!important
+}
+
+.present__link:hover path {
+  fill: var(--lightgray);
+}
